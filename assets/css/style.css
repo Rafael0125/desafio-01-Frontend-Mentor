@@ -1,0 +1,74 @@
+/* Fontes */ /*DESSA MANEIRA VIA CSS QUE RECONHECEMOS UMA FONTE CUSTOMIZADA */ 
+@font-face { /* Roboto Regular*/
+    font-family: "roboto-regular";
+    src: url(../fonts/Roboto-Regular.ttf)
+}
+
+@font-face { /* Roboto Bold */ 
+    font-family: "roboto-bold";
+    src: url(../fonts/Roboto-Bold.ttf)
+}
+
+/* Formatação do rodapé, criada por FrontEnd Mentor*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto-regular";
+}
+
+/*Container*/
+#container{
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    max-width: 950px;
+    max-height: 750px;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+/*Main*/
+#main-container{
+    text-align: center;
+    margin: 2.5rem;
+    padding: 1.5rem;
+    border: 1px solid green;
+}
+
+/*Seção Oferta*/
+#secao-oferta{
+    margin-bottom: 1.5rem;
+    border: 1px solid red;
+    padding: 0.5rem;
+
+}
+
+#secao-oferta h2{
+    font-family: "roboto-bold";
+    font-size: 64px;
+}
+
+#oferta{
+    border: 1px solid blue;
+    text-align: start;
+    padding-left: 0.5rem;
+}
+
+.beneficios{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
