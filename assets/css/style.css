@@ -9,66 +9,107 @@
     src: url(../fonts/Roboto-Bold.ttf)
 }
 
-/* Formatação do rodapé, criada por FrontEnd Mentor*/
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-
 
 /*Geral*/
 *{
     margin: 0;
     padding: 0;
     font-family: "roboto-regular";
+    font-weight:400;
+    font-size: 16px;
 }
 
+body{
+    background-color: #242742;
+}
 /*Container*/
 #container{
-    border: 1px solid red;
+    display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 950px;
-    max-height: 750px;
-    display: flex;
+    background-color: #ffffff;
+    margin: 2.5rem auto 0.2rem;
+    padding: 1rem;
+    border: 1px solid  #fff;
     width: fit-content;
-    margin: 0 auto;
+    border-radius: 1.5rem;
+
 }
 /*Main*/
 #main-container{
     text-align: center;
-    margin: 2.5rem;
     padding: 1.5rem;
-    border: 1px solid green;
+    flex: 3 1 0;
 }
 
 /*Seção Oferta*/
 #secao-oferta{
-    margin-bottom: 1.5rem;
-    border: 1px solid red;
-    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
 
 }
 
 #secao-oferta h2{
     font-family: "roboto-bold";
-    font-size: 64px;
+    font-size: 52px;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    /*letter-spacing: 0.5rem;*/
 }
 
 #oferta{
-    border: 1px solid blue;
     text-align: start;
     padding-left: 0.5rem;
 }
 
 .beneficios{
-    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 0.5rem;
+    margin: 1.5rem auto;
+}
+
+/*Formulário*/
+#secao-form{
+    padding: 1rem;
+}
+
+#secao-form form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#secao-form form label{
+    text-align: left;
+    font-size: 12px;
+}
+
+#secao-form input,button{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.5rem;
+}
+
+#secao-form form input[type="submit"]{
+    background-color: hsl(234, 29%, 20%);
+    color: #fff;
 }
 
 
+/* Formatação do rodapé */
 
-
+footer{
+    margin: 0.5rem auto;
+}
+.attribution {
+    font-size: 14px; 
+    text-align: center; 
+    color: #dbdbdb;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
 
